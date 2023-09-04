@@ -366,15 +366,21 @@ body {
 }
 
 @media (max-width: 1092px) {
+  .lds-facebook {
+    left: 45%;
+  }
   .lds-facebook:before {
-    background-size: 20% 40vh;
+    background-size: 40% 40vh;
     background-position: 52% 20vh;
   }
 }
 
 @media (max-width: 460px) {
+  .lds-facebook {
+    left: 40%;
+  }
   .lds-facebook:before {
-    background-size: 30% 40vh;
+    background-size: 50% 40vh;
     background-position: 52% 20vh;
   }
 }
